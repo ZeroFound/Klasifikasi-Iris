@@ -1,0 +1,42 @@
+Aplikasi Klasifikasi Iris
+Deskripsi Proyek
+Aplikasi Klasifikasi Iris menggunakan dataset Iris untuk mengklasifikasikan spesies bunga iris berdasarkan ukuran sepal dan petal. Dengan memanfaatkan algoritma machine learning, aplikasi ini mampu memprediksi spesies bunga iris yang berbeda dengan akurasi yang tinggi.
+
+Fitur Utama
+Klasifikasi Spesies: Menggunakan model machine learning untuk mengklasifikasikan spesies bunga iris (Setosa, Versicolor, Virginica).
+Antarmuka Sederhana: Antarmuka pengguna berbasis teks yang mudah digunakan untuk memasukkan data dan mendapatkan hasil klasifikasi.
+Teknologi yang Digunakan
+
+Bahasa Pemrograman: Python
+
+Library:
+Pandas: Untuk manipulasi dan analisis data.
+Scikit-learn: Untuk algoritma machine learning.
+Matplotlib: Untuk visualisasi data.
+
+IDE: Visual Studio Code
+
+Langkah Pengembangan
+Pengumpulan Data: Menggunakan dataset Iris yang tersedia di Scikit-learn.
+Membangun Model: Menggunakan algoritma K-Nearest Neighbors (KNN) untuk klasifikasi.
+Antarmuka Pengguna: Menggunakan input dari pengguna untuk memasukkan data spesimen bunga iris dan mendapatkan hasil klasifikasi.
+
+Hasil
+Akurasi: Model berhasil mencapai akurasi sekitar 95% pada dataset uji.
+Umpan Balik Pengguna: Pengguna dapat dengan mudah mengklasifikasikan spesies bunga iris hanya dengan memasukkan ukuran sepal dan petal.
+
+Anda dapat menginstal library tersebut dengan menjalankan perintah berikut di terminal atau command prompt:
+pip install scikit-learn numpy pandas matplotlib
+
+Catatan
+scikit-learn: Ini adalah library utama yang digunakan untuk membangun model klasifikasi.
+numpy: Ini diperlukan karena scikit-learn menggunakan numpy di bawahnya untuk operasi data.
+pandas dan matplotlib adalah opsional, tetapi sangat berguna jika Anda ingin melakukan analisis data lebih lanjut atau membuat visualisasi.
+
+Penjelasan Kode:
+Import Library: Mengimpor Tkinter untuk antarmuka pengguna dan library lain yang diperlukan untuk model KNN.
+Memuat Dataset: Memuat dataset Iris dan membagi data menjadi data latih dan data uji.
+Membangun Model KNN: Membangun dan melatih model menggunakan data latih.
+Fungsi Klasifikasi: Fungsi untuk memprediksi spesies berdasarkan input pengguna.
+Fungsi on_classify: Mengambil input dari pengguna, memanggil fungsi klasifikasi, dan menampilkan hasil menggunakan messagebox.
+Antarmuka Pengguna: Menggunakan Tkinter untuk membuat antarmuka dengan label dan entry untuk input panjang dan lebar sepal dan petal. Juga menambahkan tombol untuk melakukan klasifikasi.
